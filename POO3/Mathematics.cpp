@@ -2,11 +2,11 @@
 
 
 
-Mathematics::Mathematics(bool Algebra, bool Geometrie, bool Analiza)
+ Mathematics::Mathematics(bool Algebra, bool Geometrie, bool Analiza)
 {
-	this->Algebra = Algebra;
-	this->Geometrie = Geometrie;
-	this->Analiza = Analiza;
+	 this->Algebra = Algebra;
+	 this->Geometrie = Geometrie;
+	 this->Analiza = Analiza;
 }
 
 

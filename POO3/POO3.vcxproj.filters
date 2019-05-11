@@ -87,6 +87,12 @@
     <ClInclude Include="CourseBothEval.h">
       <Filter>Header Files\Courses</Filter>
     </ClInclude>
+    <ClInclude Include="Algebra.h">
+      <Filter>Header Files\Courses</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseOneEval.h">
+      <Filter>Header Files\Courses</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TrainingProgram.cpp">
@@ -171,6 +177,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="CourseBothEval.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseOneEval.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

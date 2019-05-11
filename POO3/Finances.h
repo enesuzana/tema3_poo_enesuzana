@@ -1,7 +1,7 @@
 #pragma once
-#include "Course.h"
+#include "CourseOneEval.h"
 
-class Finances: public Course
+class Finances: public CourseOneEval
 {
 public:
 	Finances();

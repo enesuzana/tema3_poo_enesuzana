@@ -123,10 +123,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Algebra.h" />
     <ClInclude Include="AutoDriving.h" />
     <ClInclude Include="ComunicareNLP.h" />
     <ClInclude Include="Course.h" />
     <ClInclude Include="CourseBothEval.h" />
+    <ClInclude Include="CourseOneEval.h" />
     <ClInclude Include="English.h" />
     <ClInclude Include="EvaluationSheet.h" />
     <ClInclude Include="Finances.h" />
@@ -153,6 +155,7 @@
     <ClCompile Include="ComunicareNLP.cpp" />
     <ClCompile Include="Course.cpp" />
     <ClCompile Include="CourseBothEval.cpp" />
+    <ClCompile Include="CourseOneEval.cpp" />
     <ClCompile Include="English.cpp" />
     <ClCompile Include="EvaluationSheet.cpp" />
     <ClCompile Include="Finances.cpp" />

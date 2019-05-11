@@ -1,7 +1,6 @@
 #pragma once
 #include "Mathematics.h"
-class Geometry :
-	public Mathematics
+class Geometry
 {
 public:
 	Geometry();

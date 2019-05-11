@@ -1,8 +1,7 @@
 #pragma once
 #include "Mathematics.h"
-class Analysis :
-	public Mathematics
-{
+class Analysis{
+
 public:
 	Analysis();
 	~Analysis();

@@ -11,6 +11,8 @@ Finantist::~Finantist()
 {
 }
 
-float Finantist::getMateNota() {
-	return Matematica.getGrade();
+void Finantist::Media() {
+	float temp = Algebra.getFinalGrade() + Financiar.getFinalGrade();
+	temp = temp / 2;
+
 }

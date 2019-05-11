@@ -8,8 +8,7 @@
 using namespace std;
 
 int main() {
-	ProgramareElem h;
-	h.setPracticGrade(1);
-	cout << h.getPracticGrade();
+	Student students[3];
+	student[0]("Grigore", "Financist", 10, 4);
 	return 0;
 }

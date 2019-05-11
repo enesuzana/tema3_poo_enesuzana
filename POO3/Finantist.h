@@ -1,11 +1,17 @@
 #pragma once
 #include "TrainingProgram.h"
 #include "Course.h"
+#include "Algebra.h"
+#include "Mathematics.h"
+#include "Finances.h"
+
 class Finantist : public TrainingProgram{
-	Course Matematica;
+	Mathematics Algebra;
+	Finances Financiar;
 public:
 	Finantist();
 	~Finantist();
-	float getMateNota();
+
+	void Media();
 };
 

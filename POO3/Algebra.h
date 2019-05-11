@@ -1,7 +1,7 @@
 #pragma once
 #include "Mathematics.h"
-class Algebra :
-	public Mathematics
+
+class Algebra: public Mathematics
 {
 public:
 	Algebra();
