@@ -4,7 +4,9 @@
 int TrainingProgram::maxStudents = 10;
 TrainingProgram::TrainingProgram()
 {
+	Promovat = false;
 	Nota = 0;
+	Name = "";
 }
 
 
@@ -26,4 +28,17 @@ void TrainingProgram::setName(string Name) {
 
 string TrainingProgram::getName() {
 	return Name;
+}
+
+void TrainingProgram::setPromovat() {
+	if (Nota >= 5 ) {
+		Promovat = true;
+	}
+	else {
+		Promovat = false;
+	}
+}
+
+bool TrainingProgram::getPromovat() {
+	return Promovat;
 }

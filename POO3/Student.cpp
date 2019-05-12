@@ -1,57 +1,63 @@
 #include "Student.h"
-
-Student::Student(string Nume, string Program)
+template <typename T>
+Student<T>::Student(string Nume, string Program)
 {
+	Medie = 0;
 	this->Nume = Nume;
 	fisa.setNume(Nume);
 	fisa.setProgram(Program);
-
+	NumeProgram = Program;
 }
 
-
-Student::~Student()
+template <typename T>
+Student<T>::~Student()
 {
 }
-
-string Student::getNume() {
+template <typename T>
+string Student<T>::getNume() {
 	return Nume;
 }
-
-void Student::setNume(string Nume) {
+template <typename T>
+void Student<T>::setNume(string Nume) {
 	this->Nume = Nume;
 }
-
-void Student::setTrainingProgram(string Program) {
+template <typename T>
+void Student<T>::setTrainingProgram(string Program) {
 	program.setName(Program);
 }
-
-string Student::getTrainingProgram() {
+template <typename T>
+string Student<T>::getTrainingProgram() {
 	return program.getName();
 }
-
-void Student::setTrainingNota(float Nota) {
+template <typename T>
+void Student<T>::setTrainingNota(float Nota) {
 	program.setNota(Nota);
 }
-
-float Student::getTrainingNota() {
+template <typename T>
+float Student<T>::getTrainingNota() {
 	return program.getNota();
 }
-
-void Student::addSkill(Skill skill) {
-	if (promovat == true) {
-		skill(program.getName, Medie);
+template <typename T>
+void Student<T>::addSkill() {
+	Skill skill(program.getName(), Medie);
+	if (program.getPromovat()== true){
 		Competente.push_back(skill);
 	}
 }
-
-float Student::getMedie() {
-	program.getNota();
+template <typename T>
+float Student<T>::getMedie() {
+	return	program.getNota();
 }
-
-void Student::setMedie(float Medie) {
+template <typename T>
+void Student<T>::setMedie(float Medie) {
 	this->Medie = Medie;
 }
 
-bool Student::promovat() {
-	return program.promovat();
+template <typename T>
+bool Student<T>::getPromovat(){
+	return program.getPromovat();
+}
+template <typename T>
+void Student<T>::setProgram() {
+
 }

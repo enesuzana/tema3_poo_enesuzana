@@ -1,5 +1,8 @@
 #pragma once
+#ifndef TRAININGPROGRAM_H
+#define TRAININGPROGRAM_H
 #include <string>
+#include <iostream>
 using namespace std; 
 
 class TrainingProgram
@@ -7,7 +10,7 @@ class TrainingProgram
 	static int maxStudents;
 	float Nota;
 	string Name;
-	
+	bool Promovat;
 public:
 	TrainingProgram();
 	~TrainingProgram();
@@ -17,5 +20,8 @@ public:
 
 	void setName(string);
 	string getName();
-};
 
+	void setPromovat();
+	bool getPromovat();
+};
+#endif

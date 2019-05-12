@@ -4,6 +4,8 @@
 
 Finantist::Finantist()
 {
+	Algebra.setFinalGrade(9);
+	Financiar.setFinalGrade(10);
 }
 
 

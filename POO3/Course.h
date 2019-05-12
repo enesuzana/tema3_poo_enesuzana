@@ -1,4 +1,6 @@
 #pragma once
+#ifndef COURSE_H
+#define COURSE_H
 using namespace std;
 class Course
 {
@@ -9,4 +11,4 @@ public:
 	void setGrade(float);
 	float getGrade();
 };
-
+#endif

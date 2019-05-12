@@ -1,20 +1,25 @@
 #pragma once
+#ifndef STUDENT_H
+#define STUDENT_H
 #include <string>
+#include <iostream>
 #include "Skill.h"
-#include "EvaluationSheet.h"
 #include "TrainingProgram.h"
+#include "EvaluationSheet.h"
 #include <vector>
 using namespace std;
-
+template <typename T>
 class Student
 {
+	EvaluationSheet fisa;
 	vector<Skill> Competente;
 	string Nume;
-	//EvaluationSheet fisa;
-	TrainingProgram program;
-	float Nota;
+	string NumeProgram;
+	T program;
+	vector<float> note;
+	float Medie;
 public:
-	Student(string="s");
+	Student(string = "", string = "");
 	~Student();
 
 	string getNume();
@@ -26,6 +31,13 @@ public:
 	void setTrainingNota(float);
 	float getTrainingNota();
 
-	void addSkill(Skill);
-};
+	void addSkill();
 
+	float getMedie();
+	void setMedie(float);
+
+	bool getPromovat();
+
+	void setProgram();
+};
+#endif

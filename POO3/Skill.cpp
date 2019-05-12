@@ -23,3 +23,23 @@ void Skill::setNivel(){
 		Nivel = "mare";
 	}
 }
+
+string Skill::getNivel() {
+	return Nivel;
+}
+
+void Skill::setName(string Name) {
+	this->Name = Name;
+}
+
+string Skill::getName() {
+	return Name;
+}
+
+void Skill::setMedie(float Medie) {
+	this->Medie = Medie;
+}
+
+float Skill::getMedie() {
+	return Medie;
+}
