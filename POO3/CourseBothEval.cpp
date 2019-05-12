@@ -29,7 +29,7 @@ float CourseBothEval::getPracticGrade() {
 	return practicGrade;
 }
 
-void CourseBothEval::setFinalGrade(float grade) {
+void CourseBothEval::setFinalGrade() {
 	float temp = (oralGrade + practicGrade) / 2;
 	setGrade(temp);
 }

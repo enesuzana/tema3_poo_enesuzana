@@ -31,13 +31,19 @@ public:
 	void setTrainingNota(float);
 	float getTrainingNota();
 
-	void addSkill();
+	void addSkills();
+	void showSkills();
 
 	float getMedie();
 	void setMedie(float);
 
 	bool getPromovat();
-
 	void setProgram();
+
+	float getNotaFinala();
+
+	void setProgramNotes(vector<float>&);
+
+	bool poateRefaceProg();
 };
 #endif

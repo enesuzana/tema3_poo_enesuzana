@@ -5,6 +5,7 @@
 Skill::Skill(string Name, float Medie){
 	this->Name = Name;
 	this->Medie = Medie;
+	setNivel();
 }
 
 
@@ -42,4 +43,10 @@ void Skill::setMedie(float Medie) {
 
 float Skill::getMedie() {
 	return Medie;
+}
+
+void Skill::operator=(Skill &skill) {
+	Nivel = skill.getNivel();
+	Name = skill.getName();
+	Medie = skill.getMedie();
 }

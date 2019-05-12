@@ -22,5 +22,6 @@ public:
 	void setMedie(float);
 	float getMedie();
 	
+	void operator=(Skill&);
 };
 #endif

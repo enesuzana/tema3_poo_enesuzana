@@ -129,7 +129,6 @@
     <ClInclude Include="Course.h" />
     <ClInclude Include="CourseBothEval.h" />
     <ClInclude Include="CourseOneEval.h" />
-    <ClInclude Include="English.h" />
     <ClInclude Include="EvaluationSheet.h" />
     <ClInclude Include="Finances.h" />
     <ClInclude Include="Finantist.h" />

@@ -12,10 +12,7 @@ public:
 	void setOralGrade(float);
 	float getOralGrade();
 
-	void setPracticGrade(float);
-	float getPracticGrade();
-
-	void setFinalGrade(float);
+	void setFinalGrade();
 	float getFinalGrade();
 
 };

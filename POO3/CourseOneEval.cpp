@@ -20,7 +20,7 @@ float CourseOneEval::getOralGrade() {
 	return oralGrade;
 }
 
-void CourseOneEval::setFinalGrade(float grade) {
+void CourseOneEval::setFinalGrade() {
 	setGrade(oralGrade);
 }
 

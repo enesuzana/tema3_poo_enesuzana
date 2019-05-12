@@ -42,9 +42,6 @@
     <ClInclude Include="TrainingProgram.h">
       <Filter>Header Files\TrainingPrograms</Filter>
     </ClInclude>
-    <ClInclude Include="English.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="HumanResources.h">
       <Filter>Header Files\Courses</Filter>
     </ClInclude>

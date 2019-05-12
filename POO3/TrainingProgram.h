@@ -23,5 +23,6 @@ public:
 
 	void setPromovat();
 	bool getPromovat();
+
 };
 #endif

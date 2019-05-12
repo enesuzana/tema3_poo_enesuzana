@@ -5,7 +5,7 @@ class CourseBothEval: public Course
 {	float oralGrade;
 	float practicGrade;
 public:
-	CourseBothEval(float = 0, float = 0);
+	CourseBothEval(float = 1, float = 1);
 	~CourseBothEval();
 
 	void setOralGrade(float);
@@ -14,6 +14,6 @@ public:
 	void setPracticGrade(float);
 	float getPracticGrade();
 
-	void setFinalGrade(float);
+	void setFinalGrade();
 	float getFinalGrade();
 };

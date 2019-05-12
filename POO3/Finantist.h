@@ -7,15 +7,18 @@
 #include "Mathematics.h"
 #include "Finances.h"
 #include <iostream>
+#include <vector>
 using namespace std;
 
 class Finantist : public TrainingProgram{
 	Mathematics Algebra;
 	Finances Financiar;
 public:
-	Finantist();
+	Finantist(float = 1, float = 1, float = 1);
 	~Finantist();
 
-	void Media();
+	void setNote(vector<float>&);
+	void setMedia();
+	bool minim3();
 };
 #endif
