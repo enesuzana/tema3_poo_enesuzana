@@ -25,6 +25,6 @@ int main() {
 	//s.showSkills();
 	vect.push_back(s);
 	StudentStatistics<Finantist> stats(vect, 1);
-	stats.showStatistic();
+	//stats.showStatistic();
 	return 0;
 }
