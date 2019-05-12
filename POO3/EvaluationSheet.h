@@ -4,8 +4,7 @@
 
 class EvaluationSheet
 {
-	Student student;
-	TrainingProgram program;
+	//float Nota;
 public:
 	EvaluationSheet();
 	~EvaluationSheet();

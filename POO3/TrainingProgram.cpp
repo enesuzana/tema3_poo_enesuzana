@@ -19,3 +19,11 @@ void TrainingProgram::setNota(float Nota) {
 float TrainingProgram::getNota() {
 	return Nota;
 }
+
+void TrainingProgram::setName(string Name) {
+	this->Name = Name;
+}
+
+string TrainingProgram::getName() {
+	return Name;
+}

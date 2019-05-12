@@ -4,11 +4,16 @@
 #include "Course.h"
 #include "TrainingProgram.h"
 #include "ProgramareElem.h"
+#include "Finantist.h"
 #include <vector>
+#include <string>
 using namespace std;
 
 int main() {
 	Student students[3];
-	student[0]("Grigore", "Financist", 10, 4);
+	EvaluationSheet e[3];
+	students[0].setNume("gigica");
+	students[0].setTrainingProgram("Finantist");
+
 	return 0;
 }
