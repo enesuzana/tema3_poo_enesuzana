@@ -1,3 +1,5 @@
+#ifndef PROGRAMAREELEM_H
+#define PROGRAMAREELEM_H
 #include <string>
 #pragma once
 #include "CourseBothEval.h"
@@ -12,4 +14,4 @@ public:
 	~ProgramareElem();
 
 };
-
+#endif

@@ -1,10 +1,17 @@
+#ifndef SOFER_H
+#define SOFER_H
 #pragma once
 #include "TrainingProgram.h"
-class Sofer :
-	public TrainingProgram
-{
+#include "LegislatieAuto.h"
+#include "SofatAutoPractic.h"
+#include <iostream>
+using namespace std;
+
+class Sofer :public TrainingProgram{
+	LegislatieAuto Legislatie;
+	SofatAutoPractic Sofat;
 public:
 	Sofer();
 	~Sofer();
 };
-
+#endif

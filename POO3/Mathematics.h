@@ -1,3 +1,5 @@
+#ifndef MATHEMATICS_H
+#define MATHEMATICS_H
 #pragma once
 #include "CourseBothEval.h"
 using namespace std;
@@ -11,4 +13,4 @@ public:
 	Mathematics(bool = false, bool = false, bool = false);
 	~Mathematics();
 };
-
+#endif

@@ -7,6 +7,8 @@ TrainingProgram::TrainingProgram()
 	Promovat = false;
 	Nota = 0;
 	Name = "";
+
+
 }
 
 

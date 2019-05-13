@@ -8,6 +8,7 @@
 #include "EvaluationSheet.h"
 #include <vector>
 using namespace std;
+
 template <typename T>
 class Student
 {
@@ -45,5 +46,6 @@ public:
 	void setProgramNotes(vector<float>&);
 
 	bool poateRefaceProg();
+	friend class StudentStatistics;
 };
 #endif

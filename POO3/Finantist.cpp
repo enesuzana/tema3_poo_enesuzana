@@ -2,14 +2,13 @@
 
 
 
-Finantist::Finantist(float AlgPractic, float AlgOral, float FinancOral){
+Finantist::Finantist(float AlgPractic, float AlgOral, float FinancOral) {
 	Algebra.setOralGrade(AlgOral);
 	Algebra.setPracticGrade(AlgPractic);
 	Financiar.setOralGrade(FinancOral);
 	Algebra.setFinalGrade();
 	Financiar.setFinalGrade();
 }
-
 
 Finantist::~Finantist()
 {

@@ -1,3 +1,5 @@
+#ifndef COURSEBOTHEVAL_H
+#define COURSEBOTHEVAL_H
 #pragma once
 #include "Course.h"
 using namespace std;
@@ -17,3 +19,4 @@ public:
 	void setFinalGrade();
 	float getFinalGrade();
 };
+#endif

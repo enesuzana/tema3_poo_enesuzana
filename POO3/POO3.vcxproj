@@ -124,7 +124,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Algebra.h" />
-    <ClInclude Include="AutoDriving.h" />
+    <ClInclude Include="LegislatieAuto.h" />
+    <ClInclude Include="SofatAutoPractic.h" />
     <ClInclude Include="ComunicareNLP.h" />
     <ClInclude Include="Course.h" />
     <ClInclude Include="CourseBothEval.h" />
@@ -136,7 +137,7 @@
     <ClInclude Include="HumanResources.h" />
     <ClInclude Include="Manager.h" />
     <ClInclude Include="ManagerProgTeam.h" />
-    <ClInclude Include="ManagerTouristTeam.h" />
+    <ClInclude Include="ManagerTiristTeam.h" />
     <ClInclude Include="Mathematics.h" />
     <ClInclude Include="ProgramareElem.h" />
     <ClInclude Include="Programator.h" />
@@ -162,9 +163,10 @@
     <ClCompile Include="ForeignLanguage.cpp" />
     <ClCompile Include="Geometry.cpp" />
     <ClCompile Include="HumanResources.cpp" />
+    <ClCompile Include="LegislatieAuto.cpp" />
     <ClCompile Include="Manager.cpp" />
     <ClCompile Include="ManagerProgTeam.cpp" />
-    <ClCompile Include="ManagerTouristTeam.cpp" />
+    <ClCompile Include="ManagerTiristTeam.cpp" />
     <ClCompile Include="Mathematics.cpp" />
     <ClCompile Include="ProgNonOOP.cpp" />
     <ClCompile Include="ProgOOP.cpp" />

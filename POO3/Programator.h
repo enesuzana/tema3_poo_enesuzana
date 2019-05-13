@@ -1,10 +1,21 @@
+#ifndef PROGRAMATOR_H
+#define PROGRAMATOR_H
 #pragma once
 #include "TrainingProgram.h"
-class Programator :
-	public TrainingProgram
-{
+#include "Mathematics.h"
+#include "ProgramareElem.h"
+#include "ForeignLanguage.h"
+#include <iostream>
+using namespace std;
+
+class Programator:public TrainingProgram{
+	Mathematics Algebra;
+	Mathematics Analiza;
+	Mathematics Geometrie;
+	ProgramareElem Programare;
+	ForeignLanguage LimbaEng;
 public:
 	Programator();
 	~Programator();
 };
-
+#endif

@@ -48,9 +48,6 @@
     <ClInclude Include="Finances.h">
       <Filter>Header Files\Courses</Filter>
     </ClInclude>
-    <ClInclude Include="AutoDriving.h">
-      <Filter>Header Files\Courses</Filter>
-    </ClInclude>
     <ClInclude Include="ComunicareNLP.h">
       <Filter>Header Files\Courses</Filter>
     </ClInclude>
@@ -78,9 +75,6 @@
     <ClInclude Include="Sofer.h">
       <Filter>Header Files\TrainingPrograms</Filter>
     </ClInclude>
-    <ClInclude Include="ManagerTouristTeam.h">
-      <Filter>Header Files\TrainingPrograms</Filter>
-    </ClInclude>
     <ClInclude Include="CourseBothEval.h">
       <Filter>Header Files\Courses</Filter>
     </ClInclude>
@@ -89,6 +83,15 @@
     </ClInclude>
     <ClInclude Include="CourseOneEval.h">
       <Filter>Header Files\Courses</Filter>
+    </ClInclude>
+    <ClInclude Include="SofatAutoPractic.h">
+      <Filter>Header Files\Courses</Filter>
+    </ClInclude>
+    <ClInclude Include="LegislatieAuto.h">
+      <Filter>Header Files\Courses</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagerTiristTeam.h">
+      <Filter>Header Files\TrainingPrograms</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -170,13 +173,16 @@
     <ClCompile Include="Sofer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ManagerTouristTeam.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="CourseBothEval.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="CourseOneEval.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LegislatieAuto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ManagerTiristTeam.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -11,6 +11,7 @@ class TrainingProgram
 	float Nota;
 	string Name;
 	bool Promovat;
+	vector<Course> courses;
 public:
 	TrainingProgram();
 	~TrainingProgram();

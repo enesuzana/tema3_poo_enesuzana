@@ -1,3 +1,5 @@
+#ifndef COURSEONEEVAL_H
+#define COURSEONEEVAL_H
 #pragma once
 #ifndef FINANCES_H
 #define FINANCES_H

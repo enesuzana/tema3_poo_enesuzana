@@ -1,10 +1,16 @@
+#ifndef SOFATAUTOPRACTIC_H
+#define SOFATAUTOPRACTIC_H
 #pragma once
+#include<iostream>
+#include<string>
 #include "Course.h"
+using namespace std;
 
-class AutoDriving: public Course
+class SofatAutoPractic: public CourseOneEval
 {
+	string vehicleType;
 public:
-	AutoDriving();
+	AutoDriving(vehicleType = "");
 	~AutoDriving();
 };
-
+#endif
