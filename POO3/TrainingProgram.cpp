@@ -12,6 +12,7 @@ TrainingProgram::TrainingProgram()
 
 TrainingProgram::~TrainingProgram()
 {
+	courses.clear();
 }
 
 void TrainingProgram::setNotes(vector<float> notes) {
@@ -118,4 +119,15 @@ void TrainingProgram::GENERATE() {
 	assignGradesToCourses();
 	genereazaMediePerCurs();
 	setMediaProgram();
+	setPromovat();
+}
+
+bool TrainingProgram::minim3() {
+	vector<Course*>::iterator it;
+	for (it = courses.begin(); it != courses.end(); it++) {
+		if ((*it)->getGrade() < 3) {
+			return false;
+		}
+	}
+	return true;
 }

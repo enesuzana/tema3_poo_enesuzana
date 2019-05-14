@@ -1,25 +1,22 @@
-/*
+
 #include "StudentStatistics.h"
 
 
-template <typename T>
-StudentStatistics<T>::StudentStatistics(vector<Student<T>> s, int nr){
+
+StudentStatistics::StudentStatistics(vector<Student> s, int nr){
+	students = s;
 	nrStud = nr;
-	for (int i = 0; i < nrStud; i++) {
-		students = s;
-	}
 }
 
-template <typename T>
-StudentStatistics<T>::~StudentStatistics()
+
+StudentStatistics::~StudentStatistics()
 {
 }
 
-template <typename T>
-void StudentStatistics<T>::showStatistic() {
-	typename vector<Student<T>>::iterator it;
+
+void StudentStatistics::showStatistic() {
+	typename vector<Student>::iterator it;
 	for (it = students.begin(); it != students.end(); it++) {
-		it->showSkills();
+		(*it)->showSkills();
 	}
 }
-*/

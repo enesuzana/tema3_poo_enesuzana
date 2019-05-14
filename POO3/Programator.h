@@ -6,16 +6,18 @@
 #include "ProgramareElem.h"
 #include "ForeignLanguage.h"
 #include <iostream>
+#include <vector>
 using namespace std;
 
 class Programator:public TrainingProgram{
-	//Mathematics Algebra;
-	//Mathematics Analiza;
-	//Mathematics Geometrie;
-	//ProgramareElem Programare;
-	//ForeignLanguage LimbaEng;
+	Mathematics* Algebra;
+	Mathematics* Analiza;
+	Mathematics* Geometrie;
+	ProgramareElem* Programare;
+	ForeignLanguage* LimbaEng;
 public:
 	Programator();
 	~Programator();
+	void setC();
 };
 #endif

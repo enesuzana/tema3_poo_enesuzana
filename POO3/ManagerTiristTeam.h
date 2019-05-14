@@ -6,13 +6,19 @@
 #include "Manager.h"
 #include "LegislatieAuto.h"
 #include <iostream>
+#include <vector>
 using namespace std;
 
 class ManagerTiristTeam:
 	public TrainingProgram
 {
+	ForeignLanguage* LimbaTurca;
+	Manager* manager;
+	LegislatieAuto* legislatie;
 public:
 	ManagerTiristTeam();
 	~ManagerTiristTeam();
+
+	void setC();
 };
 #endif

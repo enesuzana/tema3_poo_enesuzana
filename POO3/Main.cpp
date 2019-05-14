@@ -1,6 +1,11 @@
 #include <iostream>
 #include "Course.h"
 #include "Student.h"
+#include "Manager.h"
+#include "ManagerProgTeam.h"
+#include "ManagerTiristTeam.h"
+#include "Sofer.h"
+#include "Programator.h"
 #include "Course.h"
 #include "TrainingProgram.h"
 #include "ProgramareElem.h"
@@ -14,12 +19,13 @@ using namespace std;
 
 int main() {
 	vector<float> v;
-	v.push_back(5);
 	v.push_back(10);
-	v.push_back(5);
+	v.push_back(10);
+	v.push_back(7);
 	Student<Finantist> s("Suzi", "Financist", v);
 	s.showSkills();
-	cout << s.getMedie();
+	Student<Manager> t("Gigel", "Manager", v);
+	t.showSkills();
 	//vector<Student<Finantist>> vect;
 	//s.setProgramNotes(v);
 	//cout << s.getNotaFinala();

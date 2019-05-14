@@ -185,5 +185,8 @@
     <ClCompile Include="ManagerTiristTeam.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SofatAutoPractic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -16,6 +16,8 @@ Finantist::Finantist()
 
 Finantist::~Finantist()
 {
+	delete Algebra;
+	delete Financiar;
 }
 
 void Finantist::setC() {

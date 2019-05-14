@@ -5,13 +5,15 @@
 #include "LegislatieAuto.h"
 #include "SofatAutoPractic.h"
 #include <iostream>
+#include <vector>
 using namespace std;
 
 class Sofer :public TrainingProgram{
-	//LegislatieAuto Legislatie;
-	//SofatAutoPractic Sofat;
+	LegislatieAuto* Legislatie;
+	SofatAutoPractic* Sofat;
 public:
 	Sofer();
 	~Sofer();
+	void setC();
 };
 #endif

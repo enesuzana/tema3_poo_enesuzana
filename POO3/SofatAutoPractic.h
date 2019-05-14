@@ -1,6 +1,7 @@
 #ifndef SOFATAUTOPRACTIC_H
 #define SOFATAUTOPRACTIC_H
 #pragma once
+
 #include<iostream>
 #include<string>
 #include "CourseOneEval.h"
@@ -10,7 +11,7 @@ class SofatAutoPractic: public CourseOneEval
 {
 	string vehicleType;
 public:
-	SofatAutoPractic(string = "");
+	SofatAutoPractic(string="");
 	~SofatAutoPractic();
 };
-#endif
+#endif // !SOFATAUTOPRACTIC_H

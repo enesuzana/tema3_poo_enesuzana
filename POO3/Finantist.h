@@ -17,8 +17,5 @@ public:
 	Finantist();
 	~Finantist();
 	void setC();
-
-	//void setNote(vector<float>&);
-	//bool minim3();
 };
 #endif
