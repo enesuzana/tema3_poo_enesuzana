@@ -17,15 +17,44 @@
 #include <string>
 using namespace std;
 
-int main() {
+template<typename TT>
+void studenti(Student<TT> s[]) {
+	cout << "Cati studenti?";
+	int n;
+	cin >> n;
+	float nota;
+	string program;
+	string nume;
 	vector<float> v;
-	v.push_back(10);
-	v.push_back(10);
-	v.push_back(7);
-	Student<Finantist> s("Suzi", "Financist", v);
-	s.showSkills();
-	Student<Manager> t("Gigel", "Manager", v);
-	t.showSkills();
+	int stop = 0;
+	for (int i = 0; i < n; i++) {
+		cout << i + 1 << "-ul student" << endl;
+		for (int j = 0; j <= s[i].getNrCursuri(); j++) {
+			cout << "Introduceti nota: ";
+			cin >> nota;
+			v.push_back(nota);
+		}
+		cout << endl << "Ce nume student?";
+		cin >> program;
+		cout << endl << "Ce program de Training?";
+		cin >> nume;;
+		s[i](nume, program, v);
+		cout << endl << "Media lui este " << s[i].getMedie() << endl;
+		s[i].showSkills();
+		v.clear();
+		//stop = 0;
+	}
+}
+
+int main() {
+
+	Student<Finantist> s[2];
+	studenti(s);
+	
+	//Student<Finantist> s("Suzi", "Financist", v);
+	//s[0].showSkills();
+	//Student<Manager> t("Gigel", "Manager", v);
+	//t.showSkills();
 	//vector<Student<Finantist>> vect;
 	//s.setProgramNotes(v);
 	//cout << s.getNotaFinala();

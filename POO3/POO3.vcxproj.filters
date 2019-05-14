@@ -152,9 +152,6 @@
     <ClCompile Include="Finances.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="AutoDriving.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="ComunicareNLP.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

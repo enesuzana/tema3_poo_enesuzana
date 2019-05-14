@@ -131,3 +131,7 @@ bool TrainingProgram::minim3() {
 	}
 	return true;
 }
+
+int TrainingProgram::getNrCursuri() {
+	return (int)courses.size();
+}

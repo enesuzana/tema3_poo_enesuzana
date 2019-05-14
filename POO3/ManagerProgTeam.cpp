@@ -20,7 +20,7 @@ ManagerProgTeam::ManagerProgTeam()
 ManagerProgTeam::~ManagerProgTeam()
 {
 	delete Programare;
-	delete Comunicare;]
+	delete Comunicare;
 }
 
 

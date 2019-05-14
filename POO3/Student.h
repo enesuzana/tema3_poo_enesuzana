@@ -47,5 +47,9 @@ public:
 
 	bool poateRefaceProg();
 	friend class StudentStatistics;
+
+	void operator()(string, string, vector<float>);
+
+	int getNrCursuri();
 };
 #endif

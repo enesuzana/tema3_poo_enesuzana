@@ -151,7 +151,6 @@
   <ItemGroup>
     <ClCompile Include="Algebra.cpp" />
     <ClCompile Include="Analysis.cpp" />
-    <ClCompile Include="AutoDriving.cpp" />
     <ClCompile Include="ComunicareNLP.cpp" />
     <ClCompile Include="Course.cpp" />
     <ClCompile Include="CourseBothEval.cpp" />

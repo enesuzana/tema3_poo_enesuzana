@@ -44,5 +44,6 @@ public:
 	void GENERATE(); //aplica functiile de mai sus ca sa obtina rez
 					  //o sa avem media fiecarui curs si media programului setata
 	bool minim3(); //minim 3 la toate cursurile
+	int getNrCursuri();
 };
 #endif

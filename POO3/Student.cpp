@@ -16,6 +16,12 @@ Student<T>::Student(string Nume, string Program, vector<float> n)
 }
 
 template <typename T>
+Student<T>::Student() {
+	Medie = 0;
+	this->Nume = "noname";
+}
+
+template <typename T>
 Student<T>::~Student()
 {
 }
@@ -104,4 +110,25 @@ void Student<T>::setProgramNotes(vector<float> note) {
 template <typename T>
 bool Student<T>::poateRefaceProg() {
 	return program.minim3();
+}
+
+template <typename T>
+void Student<T>::operator()(string Nume, string Program, vector<float> n)
+{
+this->Nume = Nume;
+fisa.setNume(Nume);
+fisa.setProgram(Program);
+note = n;
+program.setC();
+program.setName(Program);
+program.setNotes(n);
+program.GENERATE(); //generam media pentru program
+Medie = program.getMediaProgram();
+addSkills();
+program.afisNotes();
+}
+
+template <typename T>
+int Student<T>::getNrCursuri() {
+	return program.getNrCursuri();
 }
