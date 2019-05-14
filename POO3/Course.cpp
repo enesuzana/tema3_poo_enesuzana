@@ -4,6 +4,7 @@
 
 Course::Course()
 {
+	finalGrade = 1;
 }
 
 
@@ -17,4 +18,30 @@ void Course::setGrade(float grade) {
 
 float Course::getGrade() {
 	return finalGrade;
+}
+
+void Course::setOralGrade(float grade) {
+}
+
+float Course::getOralGrade() {
+	return 0;
+}
+
+void Course::setPracticGrade(float f) {
+	
+}
+
+float Course::getPracticGrade() {
+	return 0;
+}
+
+void Course::setFinalGrade() {
+}
+
+float Course::getFinalGrade() {
+	return 0;
+}
+
+bool Course::boolOneEval() {
+	return false;
 }

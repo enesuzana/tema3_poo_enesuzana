@@ -9,9 +9,9 @@
 using namespace std;
 
 class Manager :public TrainingProgram{
-	HumanResources ResurseUmane;
-	Finances Financiar;
-	ForeignLanguage LimbaEngleza;
+	//HumanResources ResurseUmane;
+	//Finances Financiar;
+	//ForeignLanguage LimbaEngleza;
 public:
 	Manager();
 	~Manager();

@@ -18,5 +18,6 @@ public:
 
 	void setFinalGrade();
 	float getFinalGrade();
+	bool boolOneEval();
 };
 #endif

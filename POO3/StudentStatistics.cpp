@@ -1,3 +1,4 @@
+/*
 #include "StudentStatistics.h"
 
 
@@ -21,3 +22,4 @@ void StudentStatistics<T>::showStatistic() {
 		it->showSkills();
 	}
 }
+*/

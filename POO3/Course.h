@@ -12,5 +12,12 @@ public:
 	~Course();
 	void setGrade(float);
 	float getGrade();
+	virtual void setOralGrade(float);
+	virtual float getOralGrade();
+	virtual void setPracticGrade(float);
+	virtual float getPracticGrade();
+	virtual void setFinalGrade();
+	virtual float getFinalGrade();
+	virtual bool boolOneEval();
 };
 #endif

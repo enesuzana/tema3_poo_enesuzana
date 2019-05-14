@@ -3,14 +3,14 @@
 #pragma once
 #include<iostream>
 #include<string>
-#include "Course.h"
+#include "CourseOneEval.h"
 using namespace std;
 
 class SofatAutoPractic: public CourseOneEval
 {
 	string vehicleType;
 public:
-	AutoDriving(vehicleType = "");
-	~AutoDriving();
+	SofatAutoPractic(string = "");
+	~SofatAutoPractic();
 };
 #endif

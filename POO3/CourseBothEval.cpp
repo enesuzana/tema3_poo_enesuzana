@@ -37,3 +37,7 @@ void CourseBothEval::setFinalGrade() {
 float CourseBothEval::getFinalGrade() {
 	return getGrade();
 }
+
+bool CourseBothEval::boolOneEval() {
+	return false;
+}

@@ -1,12 +1,18 @@
 #include "Student.h"
 template <typename T>
-Student<T>::Student(string Nume, string Program)
+Student<T>::Student(string Nume, string Program, vector<float> n)
 {
 	this->Nume = Nume;
 	fisa.setNume(Nume);
 	fisa.setProgram(Program);
+	note = n;
+	program.setC();
 	program.setName(Program);
-	NumeProgram = Program;
+	program.setNotes(n);
+	program.GENERATE(); //generam media pentru program
+	Medie = program.getMediaProgram();
+	addSkills();
+	program.afisNotes();
 }
 
 template <typename T>
@@ -87,13 +93,11 @@ void Student<T>::setProgram() {
 
 template <typename T>
 float Student<T>::getNotaFinala() {
-	program.setMedia();
-	addSkills();
 	return program.getNota();
 }
 
 template <typename T>
-void Student<T>::setProgramNotes(vector<float> &note) {
+void Student<T>::setProgramNotes(vector<float> note) {
 	program.setNote(note);
 }
 

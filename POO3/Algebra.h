@@ -6,6 +6,7 @@
 using namespace std;
 class Algebra: public Mathematics
 {
+	int nr;
 public:
 	Algebra();
 	~Algebra();

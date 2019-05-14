@@ -1,3 +1,4 @@
+/*
 #pragma once
 #ifndef STUDENTSTATISTICS_H
 #define STUDENTSTATISTICS_H
@@ -18,3 +19,4 @@ public:
 	void showStatistic();
 };
 #endif
+*/

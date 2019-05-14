@@ -2,8 +2,9 @@
 
 
 
-Algebra::Algebra()
+Algebra::Algebra(): Mathematics(true, false, false)
 {
+	nr = 0;
 }
 
 

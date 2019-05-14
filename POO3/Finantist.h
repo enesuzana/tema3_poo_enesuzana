@@ -11,14 +11,14 @@
 using namespace std;
 
 class Finantist : public TrainingProgram{
-	Mathematics Algebra;
-	Finances Financiar;
+	Mathematics* Algebra;
+	Finances* Financiar;
 public:
-	Finantist(float = 1, float = 1, float = 1);
+	Finantist();
 	~Finantist();
+	void setC();
 
-	void setNote(vector<float>&);
-	void setMedia();
-	bool minim3();
+	//void setNote(vector<float>&);
+	//bool minim3();
 };
 #endif

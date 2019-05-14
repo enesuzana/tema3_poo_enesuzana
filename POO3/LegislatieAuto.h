@@ -1,7 +1,8 @@
 #ifndef LEGISLATIEAUTO_H
 #define LEGISLATIEAUTO_H
 #pragma once
-#include "Course.h"
+#include "CourseOneEval.h"
+
 class LegislatieAuto:public CourseOneEval
 {
 public:

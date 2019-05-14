@@ -9,11 +9,11 @@
 using namespace std;
 
 class Programator:public TrainingProgram{
-	Mathematics Algebra;
-	Mathematics Analiza;
-	Mathematics Geometrie;
-	ProgramareElem Programare;
-	ForeignLanguage LimbaEng;
+	//Mathematics Algebra;
+	//Mathematics Analiza;
+	//Mathematics Geometrie;
+	//ProgramareElem Programare;
+	//ForeignLanguage LimbaEng;
 public:
 	Programator();
 	~Programator();

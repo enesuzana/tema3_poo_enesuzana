@@ -8,8 +8,8 @@
 using namespace std;
 
 class Sofer :public TrainingProgram{
-	LegislatieAuto Legislatie;
-	SofatAutoPractic Sofat;
+	//LegislatieAuto Legislatie;
+	//SofatAutoPractic Sofat;
 public:
 	Sofer();
 	~Sofer();

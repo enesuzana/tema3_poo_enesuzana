@@ -9,9 +9,9 @@
 using namespace std;
 
 class ManagerProgTeam:public TrainingProgram{
-	Manager manager;
-	ProgramareElem Programare;
-	ComunicareNLP Comunicare;
+	//Manager manager;
+	//ProgramareElem Programare;
+	//ComunicareNLP Comunicare;
 public:
 	ManagerProgTeam();
 	~ManagerProgTeam();

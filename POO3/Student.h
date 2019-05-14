@@ -15,12 +15,12 @@ class Student
 	EvaluationSheet fisa;
 	vector<Skill> Competente;
 	string Nume;
-	string NumeProgram;
 	T program;
 	vector<float> note;
 	float Medie;
 public:
-	Student(string = "", string = "");
+	Student(string, string, vector<float>);
+	Student();
 	~Student();
 
 	string getNume();
@@ -43,7 +43,7 @@ public:
 
 	float getNotaFinala();
 
-	void setProgramNotes(vector<float>&);
+	void setProgramNotes(vector<float>);
 
 	bool poateRefaceProg();
 	friend class StudentStatistics;
