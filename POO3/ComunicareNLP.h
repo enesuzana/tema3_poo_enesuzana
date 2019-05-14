@@ -10,5 +10,6 @@ class ComunicareNLP: public CourseBothEval
 public:
 	ComunicareNLP();
 	~ComunicareNLP();
+	void eliminaNotaCeaMaiMica();
 };
 #endif

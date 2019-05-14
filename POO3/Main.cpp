@@ -42,6 +42,7 @@ void studenti(Student<TT> s[]) {
 		cout << endl << "Media lui este " << s[i].getMedie() << endl;
 		s[i].showSkills();
 		v.clear();
+		cout << endl;
 		//stop = 0;
 	}
 }

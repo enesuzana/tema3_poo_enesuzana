@@ -5,15 +5,18 @@
 #include <iostream>
 #include <vector>
 #include "Student.h"
+#include "Programator.h"
+#include "Finantist.h"
 #include "TrainingProgram.h"
 using namespace std;
 
 class StudentStatistics
 {
 	int nrStud;
-	typename vector<Student> students;
+	Student<TrainingProgram> s[3];;
+
 public:
-	StudentStatistics(typename vector<Student>, int=10);
+	StudentStatistics(Student<TrainingProgram> s[], int=10);
 	~StudentStatistics();
 
 	void showStatistic();

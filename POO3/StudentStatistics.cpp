@@ -3,9 +3,8 @@
 
 
 
-StudentStatistics::StudentStatistics(vector<Student> s, int nr){
-	students = s;
-	nrStud = nr;
+StudentStatistics::StudentStatistics(Student<TrainingProgram> st, int nr){
+	s = st;
 }
 
 
@@ -15,9 +14,9 @@ StudentStatistics::~StudentStatistics()
 
 
 void StudentStatistics::showStatistic() {
-	typename vector<Student>::iterator it;
-	for (it = students.begin(); it != students.end(); it++) {
-		(*it)->showSkills();
+	typename vector<Student<Finantist>>::iterator it;
+	for (it = Finantisti.begin(); it != Finantisti.end(); it++) {
+		it.showSkills();
 	}
 }
 */
